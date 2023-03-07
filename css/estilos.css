@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.contenedor{
+    height: 100%;
+    margin-left: 3%;
+}
+
+
+.div-superior {
+    background-color: #1cd1b0;
+    padding: 10px 0px 10px 27px;
+    font-size: 15px;
+    
+}
+
+h1 {
+    background-color: #00669f;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    padding: 28px 0px 26px 28px;
+}
+
+main {
+    width: 100%;
+    height: 800px;
+    
+   
+}
+
+/* .contenedor-tarjetas{
+     background-color: black;
+    width: 300px;
+    height: 50px;
+    margin: 30px;
+    border: black solid 3px;
+     
+} */
+
+.tarjeta {
+    display: inline-block;
+    background-color: #f3f3f3;
+    width: 30%;
+    margin-top: 150px;  
+    border-radius: 3%;
+    height:65%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    margin-right: 3%;
+   
+   
+}
+
+.fondo {
+    background-image: url(../img/batman1.png);
+    height: 193px;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.fondo2 {
+    background-image: url(../img/harley1.png);
+    height: 193px;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.fondo img{
+    margin: 5% 0 0 5%
+}
+
+.fotoperfil img{
+    border-radius: 100%;
+    border: solid white 1px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.fotoperfil{
+    margin-top: -60px;
+    margin-left: calc(50% - 60px);
+
+}   
+
+.contenedor-texto h2{
+/* margin-top: 150px; */
+width: 100%;
+text-align: center;
+
+} 
+
+.contenedor-texto p{
+    height:auto;
+    margin: 0px;
+  /* padding: 5px; */
+}
+.contenedor-texto h2{
+    padding: 4%;
+}
+.contenedor-texto{
+    width: 267px;
+    height: 113px;
+    margin: auto; 
+}
+
+.button{
+    width: 128px;
+    height: 48px;
+    background-color: #00669f;
+    text-align: center;
+    margin: auto;
+    margin-top: 12%;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.25);
+}
+
+.button p{
+    padding-top: 10%;
+}
+
+footer {
+    background-color: #00669f;
+    height: 50px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 6px;
+}
+
+/* footer p {
+    margin-top: 20px;
+} */
